@@ -1,0 +1,68 @@
+#Home {
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+#Home img {
+    position: relative;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 75%;
+}
+
+#Home .home-text {
+    position: absolute;
+    margin: 40px;
+    width: calc(100vw/2);
+}
+
+.home-text h1{
+    font-size: 120px;
+    margin: 0;
+    color: #c1121f;
+    font-weight: 1000;
+}
+
+#Home p {
+    font-size: 18px;
+}
+
+#Home .button {
+    border: solid #c1121f;
+    border-width: 2px;
+    width: 40%;
+    padding: 10px 30px;
+    transition: ease-in 0.4s;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #c1121f;
+}
+
+#Home .button:nth-of-type(2){
+    border: solid #c1121f;
+    background-color: #c1121f;
+    color: white;
+    opacity: 0.6;
+}
+
+#Home .button:hover {
+    box-shadow: inset 400px 0 0 0 #c1121f;
+    color: white;
+}
+
+#Home .button:hover:nth-of-type(2) {
+    opacity: 1;
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}

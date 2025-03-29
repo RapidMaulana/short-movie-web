@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Brawler:wght@400;700&family=Instrument+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+body{
+    height: 100vh;
+    font-family: 'DM Sans';
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+body *{
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    z-index: 20;
+    padding: 20px 0;
+    flex-direction: row;
+    font-weight: 700;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.75); */
+}
+
+nav * {
+    margin: 0 40px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
