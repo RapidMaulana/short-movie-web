@@ -7,41 +7,71 @@
 
     <link rel="stylesheet" href="../style/global.css" />
     <link rel="stylesheet" href="../style/home.css" />
+    <link rel="stylesheet" href="../style/about.css" />
+    <link rel="stylesheet" href="../style/watch.css" />
   </head>
   <body>
-    <nav>
+    <!-- <nav id="navbar">
       <a href="#Home">
-        <h1>Home</h1>
+        <h1>Don't Sleep</h1>
       </a>
       <a href="#About">
-        <h1>About</h1>
+        <h1>Tentang Film</h1>
       </a>
       <a href="../pages/watch.html">
-        <h1>Watch Don't Sleep</h1>
+        <h1>Tonton Don't Sleep</h1>
       </a>
-    </nav>
+    </nav> -->
 
     <div id="Home">
       <img src="../assets/home/home.jpg" alt="hom pej" />
       <div class="home-text">
+        <div class="content">
           <h1 class="reveal">Don't Sleep</h1>
           <p class="reveal">
-            Short movie ini mengangkat kisah seorang mahasiswa yang kecanduan
-            begadang akibat bermain game. Akibat begadang tersebut, ia mengalami
-            kejadian yang menyeramkan di kampus saat tertidur di kelas dan
-            tebangun di suasana yang tidak biasa. Mimpi dan kenyataan mulai
-            kabur, sampai akhirnya menyadari bahwa sesuatu telah mengikutinya.
+            Di sebuah kampus tempat kelelahan mengaburkan batas antara nyata dan mimpi buruk, Ucok mahasiswa yang terjebak dalam obsesinya terhadap game online hidup dalam lingkaran menyeramkan. Malam-malam begadang membawanya ke dunia penuh bayangan gelap, bisikan misterius, dan kampus yang berubah menjadi labirin horor. Saat teror semakin nyata, Ucok dihadapkan pada kebenaran mengerikan apakah semua ini lahir dari pikirannya yang rapuh, atau ia telah membangkitkan sesuatu yang jauh lebih gelap?
           </p>
           <div class="button-wrapper reveal">
-              <a href="#About" class="button "> Lebih lanjut → </a>
-              <a href="../pages/watch.html" class="button "> Tonton Sekarang </a>
+            <a href="#Watch" class="button"> Tonton Sekarang </a>
+            <a href="#About" class="button"> Details </a>
           </div>
+        </div>
       </div>
     </div>
 
     <section id="About">
-      <h1>About Us</h1>
+      <h1 class="header">Anggota Kami</h1>
+      <div class="tabs-wrapper">
+        <button class="tabs-option active"><p>Matthew</p> </button>
+        <button class="tabs-option"><p>Alfredo</p> </button>
+        <button class="tabs-option"><p>Rafid</p> </button>
+        <button class="tabs-option"><p>Alfiftah</p> </button>
+        <button class="tabs-option"><p>Sandy</p> </button>
+        <button class="tabs-option"><p>Lailya</p> </button>
+        <button class="tabs-option"><p>Danendra</p> </button>
+      </div>
+      <div class="tabs-content">
+        <div class="tabs-content-list"><p>Matthew</p></div>
+        <div class="tabs-content-list hidden"><p>Alfredo</p></div>
+        <div class="tabs-content-list hidden"><p>Rafid</p></div>
+        <div class="tabs-content-list hidden"><p>Alfiftah</p></div>
+        <div class="tabs-content-list hidden"><p>Sandy</p></div>
+        <div class="tabs-content-list hidden"><p>Lailya</p></div>
+        <div class="tabs-content-list hidden"><p>Danendra</p></div>
+      </div>
     </section>
+
+    <section id="Watch">
+      <div class="content">
+        <h1 class="header">Mulai Menonton <strong> Don't Sleep</strong></h1>
+        <iframe width="1512" height="587" src="https://www.youtube.com/embed/fsHXmys3W5w" title="Don't Sleep" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+    <footer>
+      <h1>Don't Sleep</h1>
+      <p>&copyKelompok8 Pictures LLC ALL RIGHTS RESERVED.</p>
+    </footer>
     <script src="../script/reveal.js"></script>
+    <script src="../script/tabs.js"></script>
   </body>
 </html>

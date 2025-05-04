@@ -1,0 +1,16 @@
+#Watch{
+    height: 100vh;
+}
+
+#Watch .header{
+    margin: 0 0 0 40px;
+    flex-direction: row;
+    font-size: 60px;
+}
+
+#Watch strong{
+    width: fit-content;
+    color: #c1121f;
+    font-weight: 1000;
+    margin-left: 10px;
+}
