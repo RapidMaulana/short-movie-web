@@ -12,6 +12,7 @@
 }
 
 #Home .home-text {
+    z-index: 4;
     position: absolute;
     justify-content: center;
     box-shadow: inset 600px 0 120px 0px rgba(0, 0, 0, 0.75);
@@ -30,6 +31,13 @@
     height: 75%;
     color: #c1121f;
     font-weight: 1000;
+}
+
+#Home .home-title{
+    z-index: 2;
+    width: 50%;
+    height: auto;
+    margin-bottom: -70px;
 }
 
 #Home p {

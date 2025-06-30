@@ -8,9 +8,9 @@
     font-size: 60px;
 }
 
-#Watch strong{
-    width: fit-content;
-    color: #c1121f;
-    font-weight: 1000;
+#Watch img{
     margin-left: 10px;
+    width: 120px;
+    height: auto;
 }
+
